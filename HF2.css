@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* HF2 */
+
+/* MATRIX + PROJECT --------------- */
+
+body {
+	background-image:url(../HF2/Backgrounds/background_1.png);
+}
+
+/* NAME HEADER DISPLAY */
+div.top {
+	width:812px;
+	height:32px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+/* LINKS NAME BACK TO INDEX */
+a.home {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin-right:5px;
+	cursor:pointer;
+	margin-top:8px;	
+	margin-bottom:0px;
+	letter-spacing:1px;
+	text-decoration:none;	
+}
+
+
+/* MATRIX ------------------------- */
+
+/* DEFINES BODY OF MATRIX */
+div.matrix {
+	width:812px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+/* TRANSLUCENT BACKGROUND TO BE PHASED OUT */
+/* div.cell {
+	width:260px;
+	height:20px;
+	background-color:#FFFFFF;
+	opacity:0.6;
+	z-index:1;
+	position:absolute;
+	margin-top:180px;	
+} */
+
+/* DEFINES IMAGE CELL IN MATRIX */
+td.cell {
+	width:260px;
+	height:200px;
+	outline-style:solid;
+	outline-width:1px;
+	outline-color:#FFFFFF;
+	cursor:pointer;
+}
+
+/* DEFINES HORIZONTAL GAP BETWEEN IMAGE CELLS */
+td.spacer_h {
+	width:16px;
+}
+
+/* DEFINES VERTICAL GAP BETWEEN IMAGE CELLS */
+td.spacer_v {
+	height:16px;
+}
+
+/* DEFINES PROJECT TITLE ON BOTTOM */
+div.title_lower {
+	width:260px;
+	height:22px;
+	z-index:2;
+	position:absolute;
+	margin-top:178px;	
+}
+
+/* DEFINES PROJECT TITLE ON TOP */
+div.title_upper {
+	width:260px;
+	height:20px;
+	z-index:2;
+	position:absolute;
+	margin-top:4px;	
+}
+
+/* DEFINES PROJECT TITLE JUSTIFIED LEFT AND BLACK TEXT */
+h2.title_darkleft {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:6px;
+}
+
+/* DEFINES PROJECT TITLE JUSTIFIED LEFT AND WHITE TEXT */
+h2.title_lightleft {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin-top:0px;	
+	margin-bottom:0px;
+	margin-left:6px;
+}
+
+/* DEFINES PROJECT TITLE JUSTIFIED RIGHT AND BLACK TEXT */
+h2.title_darkright {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+	margin-top:0px;	
+	margin-bottom:0px;
+	text-align:right;
+	margin-right:6px;
+}
+
+/* DEFINES PROJECT TITLE JUSTIFIED RIGHT AND WHITE TEXT */
+h2.title_lightright {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin-top:0px;	
+	margin-bottom:0px;
+	text-align:right;
+	margin-right:6px;
+}
+
+
+/* PROJECT ------------------------ */
+
+/* DEFINES ENTIRE WORKSPACE OF PROJECT PAGE */
+div.project {
+	width:912px;
+	height:662px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+/* DEFINES BACK ARROW */
+div.arrow_back {
+	width:40px;
+	height:100px;
+	z-index:1;
+	position:absolute;
+	margin-top:297px;
+	margin-left:0px;
+	cursor:pointer;
+}
+
+/* DEFINES FORWARD ARROW */
+div.arrow_forward {
+	width:40px;
+	height:100px;
+	z-index:1;
+	position:absolute;
+	margin-top:297px;
+	margin-left:872px;
+	cursor:pointer;
+}
+
+/* DEFINES SPACE FOR NAME */
+div.top_name {
+	width:220px;
+	height:32px;
+	cursor:pointer;
+	position:absolute;
+	z-index:1;
+}
+
+/* DEFINES SPACE FOR HOME ICON */
+div.top_home {
+	width:32px;
+	height:32px;
+	margin-left:220px;
+	position:absolute;
+	cursor:pointer;
+}
+
+/* DEFINES SIZE OF PROJECT IMAGE */
+div.image {
+	width:810px;
+	height:630px;
+	margin-right:51px;
+	margin-left:51px;
+}
+
+/* DEFINES AREA OF TITLE TEXT ON 2ND IMAGE */
+div.summary_upper {
+	width:400px;
+	height:350px;
+	margin-top:-490px;
+	margin-left:205px;
+	visibility:hidden;
+	cursor:default;
+}
+
+/* DEFINES AREA OF TITLE TEXT ON 2ND IMAGE */
+div.summary_lower {
+	width:400px;
+	height:350px;
+	margin-top:-460px;
+	margin-left:205px;
+	visibility:hidden;
+	cursor:default;
+}
+
+/* DEFINES AREA OF CAPTION TEXT */
+div.caption {
+	margin-left:50px;
+	margin-top:-630px;
+	z-index:1;
+	position:absolute;
+	cursor:default;
+	visibility:hidden;
+}
+
+/* ??????????????????????? REDUNDANT TO BE CONSOLIDATED */
+/*
+img.border {
+	border-color:#FFFFFF;
+	border-style:solid;
+	border-width:1px;
+}
+*/
+
+/* DEFINES IMAGES TO HAVE WHITE OUTLINE */
+img.outline {
+	outline-style:solid;
+	outline-color:#FFFFFF;
+	outline-width:1px;
+}
+
+/* HEADING TEXT - WHITE */
+h3 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	line-height:15px;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+/* HEADING TEXT - BLACK */
+h3.invert {
+	color:#000000;
+}
+
+/* HEADING TEXT - RED */
+h3.red {
+	color:#EE0000;
+}
+
+/* HEADING TEXT - GREEN */
+h3.green {
+	color:#009900;
+}
+
+/* HEADING TEXT - BLUE */
+h3.blue {
+	color:#0099FF;
+}
+
+/* HEADING TEXT - BURGUNDY */
+h3.burgundy {
+	color:#B36724;
+}
+
+/* BODY TEXT - LIGHT GRAY */
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	line-height:15px;
+	color:#BBBBBB;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+/* BODY TEXT - SUMMARY TABLE */
+/*p.summary {
+	margin-top:0px;
+}*/
+
+/* ??????????????????????? BODY TEXT - SUMMARY TEXT FIRST PARAGRAPH */
+/*p.title {
+	line-height:15px;
+}*/
+
+/* BODY TEXT - SUMMARY TEXT FOLLOWING PARAGRAPHS */
+p.summary {
+	margin-top:8px;
+}
+
+/* BODY TEXT - BLACK */
+p.invert {
+	/*color:#666666;*/
+	color:#000000;
+}
+
+/* BODY TEXT - RED */
+p.red {
+	color:#EE0000;
+}
+
+/* BODY TEXT - GREEN */
+p.green {
+	color:#009900;
+}
+
+/* BODY TEXT - BLUE */
+p.blue {
+	color:#0099FF;
+}
+
+/* BODY TEXT - BURGUNDY */
+p.burgundy {
+	color:#B36724;
+}
+
+/* BODY TEXT FOR LINKS - LIGHT GRAY */
+a.link {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	line-height:15px;
+	color:#BBBBBB;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+/* GENERAL TABLE FORMATTING */
+table, tr, td {
+	border-collapse:collapse;
+	padding:0px;
+}
+
+table.image {
+	width:810px;
+	height:630px;
+}
+
+
+/* SUMMARY TABLE: OVERALL FORMATTING */
+table.summary {
+	margin-top:30px;
+	position:absolute;
+}
+
+/* SUMMARY TABLE: ROW & CELL FORMATTING */
+tr.sum {
+	border-bottom: solid 1px #666;
+}
+
+tr.sum_top {
+	border-bottom: solid 1px #666;
+	border-top: solid 1px #666;
+}
+
+td.sum_label {
+	width:80px;
+	height:16px;
+}
+
+td.sum_field {
+	width:320px;
+}
+
+
+
+/* RESUME ------------------------ */
+
+/* SPECIAL WORKSPACE NEEDED FOR RESUME PAGE*/
+div.resume {
+	width:912px;
+	height:1052px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+div.imageresume {
+	width:810px;
+	height:1030px;
+	margin-right:50px;
+	margin-left:50px;
+}
+
+h3.resume {
+	font-weight:bold;
+	color:#000000;
+	margin-top:26px;
+	line-height:13px;
+}
+
+p.resume {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#000000;
+	margin-top:0px;
+	margin-bottom:0px;
+	line-height:13px;
+}
