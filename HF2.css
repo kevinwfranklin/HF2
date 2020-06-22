@@ -1,6 +1,24 @@
 @charset "utf-8";
 /* HF2 */
 
+/* FONTS --------------- */
+
+@font-face {
+	font-family:HF2_ArialBold;
+	src:url(../HF2/Fonts/arialbd.ttf)
+}
+
+@font-face {
+	font-family:HF2_Tahoma;
+	src:url(../HF2/Fonts/tahoma.ttf)
+}
+
+@font-face {
+	font-family:HF2_TahomaBold;
+	src:url(../HF2/Fonts/tahomabd.ttf)
+}
+
+
 /* MATRIX + PROJECT --------------- */
 
 body {
@@ -17,7 +35,7 @@ div.top {
 
 /* LINKS NAME BACK TO INDEX */
 a.home {
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:HF2_ArialBold;
 	font-size:24px;
 	font-weight:bold;
 	color:#FFFFFF;
@@ -90,7 +108,7 @@ div.title_upper {
 
 /* DEFINES PROJECT TITLE JUSTIFIED LEFT AND BLACK TEXT */
 h2.title_darkleft {
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:HF2_ArialBold;
 	font-size:16px;
 	font-weight:bold;
 	color:#000000;
@@ -101,7 +119,7 @@ h2.title_darkleft {
 
 /* DEFINES PROJECT TITLE JUSTIFIED LEFT AND WHITE TEXT */
 h2.title_lightleft {
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:HF2_ArialBold;
 	font-size:16px;
 	font-weight:bold;
 	color:#FFFFFF;
@@ -112,7 +130,7 @@ h2.title_lightleft {
 
 /* DEFINES PROJECT TITLE JUSTIFIED RIGHT AND BLACK TEXT */
 h2.title_darkright {
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:HF2_ArialBold;
 	font-size:16px;
 	font-weight:bold;
 	color:#000000;
@@ -124,7 +142,7 @@ h2.title_darkright {
 
 /* DEFINES PROJECT TITLE JUSTIFIED RIGHT AND WHITE TEXT */
 h2.title_lightright {
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:HF2_ArialBold;
 	font-size:16px;
 	font-weight:bold;
 	color:#FFFFFF;
@@ -241,7 +259,7 @@ img.outline {
 
 /* HEADING TEXT - WHITE */
 h3 {
-	font-family:Tahoma, Geneva, sans-serif;
+	font-family:HF2_TahomaBold;
 	font-size:11px;
 	line-height:15px;
 	font-weight:bold;
@@ -277,7 +295,7 @@ h3.burgundy {
 
 /* BODY TEXT - LIGHT GRAY */
 p {
-	font-family:Tahoma, Geneva, sans-serif;
+	font-family:HF2_Tahoma;
 	font-size:11px;
 	line-height:15px;
 	color:#BBBBBB;

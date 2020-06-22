@@ -19,12 +19,15 @@ function arrow(){
 	else if(key == 37) {back();}
 }
 
-function back(){
+function back_img(){
 	if(i > 0) {i--;}
 	else {i = k;}
 	var pic = document.getElementById("imag");
 	pic.src = img[i];
-	
+	document.getElementById("imag").onload = function() {back_txt()};
+}
+
+function back_txt(){
 	switch(i) {
 		case 0:
 		document.getElementById("summary").style.visibility="hidden";
@@ -56,12 +59,15 @@ function back(){
 	}
 }
 
-function forward(){
+function forward_img(){
 	if(i < k) {i++;}
 	else {i = 0;}
 	var pic = document.getElementById("imag");
 	pic.src = img[i];
-	
+	document.getElementById("imag").onload = function() {forward_txt()};
+}
+
+function forward_txt(){
 	switch(i) {	
 		case 0:
 		document.getElementById("caption_Sect").style.visibility="hidden";
