@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--GET CSS FILE-->
+<link rel="stylesheet" type="text/css" href="../HF2.css" />
+<!--GET JAVASCRIPT FILE-->
+<script type="text/javascript" src="PSTH_Script.js"></script>
+
+<title>PSTH</title>
+
+</head>
+
+<!--OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO-->
+
+<body onkeydown="arrow()">
+
+<div class="project">
+
+<div class="arrow_back">
+<img onclick="back_img()" src="../Sprites/Arrow_Back.svg" draggable="false" style="width:40px; height:100px;"/>
+</div>
+
+<div class="arrow_forward">
+<img onclick="forward_img()" src="../Sprites/Arrow_Forward.svg" draggable="false" style="width:40px; height:100px;"/>
+</div>
+
+<div class="top">
+<div class="top_name">
+<a class="home" href="../index.html">Kevin W Franklin</a>
+</div>
+
+<div class="top_home">
+<a href="../index.html"><img src="../Sprites/Home.svg" draggable="false" style="width:32px;height:32px;"/></a>
+</div>
+</div>
+
+<div class="image">
+<table class="image">
+<tr>
+<td style="vertical-align:middle; text-align:center;">
+<img id="imag" class="outline" draggable="false" src="PSTH_Laum.jpg" />
+</td>
+</tr>
+</table>
+
+<!--/////////////////////////////////////////////////////////////-->
+
+<div class="summary_upper" id="summary">
+<h3>Reimagining Small Railway Stops</h3>
+<p>This project, my final thesis and last academic project, explored the potential of new developments in railway transit to influence small towns. The majority of small towns throughout the southeastern U.S. were formed along railways, but many are no longer connected to passenger trains. The ones that are often are no more than a place to wait. The building that was developed explored the possibility of sythesizing other programmmatic elements with the station in order to create a more dynamic destination to reinforce the already important role that the historic center plays within the town.</p>
+
+<table class="summary">
+<tr class="sum_top">
+<td class="sum_label"><p>Location</p></td>
+<td class="sum_field"><p>Plant City, FL</p></td>
+</tr>
+<tr class="sum">
+<td class="sum_label"><p>Year</p></td>
+<td class="sum_field"><p>Spring 2011 (Fifth Year)</p></td>
+</tr>
+<tr class="sum">
+<td class="sum_label"><p>Type</p></td>
+<td class="sum_field"><p>Academic (Thesis)</p></td>
+</tr>
+<tr class="sum">
+<td class="sum_label"><p>Program</p></td>
+<td class="sum_field"><p>Train station, grocery store, & bookstore</p></td>
+</tr>
+
+</table>
+</div>
+</div>
+
+<!--/////////////////////////////////////////////////////////////-->
+
+<div class="caption" id="caption">
+<table>
+
+<tr>
+<td style="width:20px; height:40px;"></td>
+<td></td>
+</tr>
+
+<tr>
+<td style="height:572px;"></td>
+<td style="vertical-align:bottom; width:310px;">
+<h3 class="invert" id="name"></h3>
+<p class="invert" id="desc"></p>
+</td>
+</tr>
+
+</table>
+</div>
+
+<!--/////////////////////////////////////////////////////////////-->
+
+<div class="caption" id="caption_Thes">
+<table>
+
+<tr>
+<td style="width:40px; height:40px;"></td>
+<td></td>
+</tr>
+
+<tr>
+<td style="height:572px;"></td>
+<td style="vertical-align:bottom; width:250px;">
+<h3 id="name_Thes"></h3>
+<p id="desc_Thes"></p>
+</td>
+</tr>
+
+</table>
+</div>
+
+<!--/////////////////////////////////////////////////////////////-->
+
+<div class="caption" id="caption_Natn">
+<table>
+
+<tr>
+<td style="width:11px; height:100px;"></td>
+<td style="width:19px;"></td>
+<td style="width:10px;"></td>
+<td></td>
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite1.png" /></td>
+<td></td>
+<td><p>Light Rail Systems</p></td>
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite2.png" /></td>
+<td></td>
+<td><p>Rapid Transit Systems</p></td>
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite3.png" /></td>
+<td></td>
+<td><p>High-Speed Rail Hubs</p></td>
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite4.png" /></td>
+<td></td>
+<td><p>Commuter Rail Hubs</p></td>
+</tr>
+
+<tr>
+<td style="height:44px;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite5.png" /></td>
+<td></td>
+<td><p>Cities investing in <b style="color:#FFFFFF; font-weight:normal;">one</b> type</p></td>
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite6.png" /></td>
+<td></td>
+<td><p>Cities investing in <b style="color:#FFFFFF; font-weight:normal;">two</b> types</p></td>
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite7.png" /></td>
+<td></td>
+<td><p>Cities investing in <b style="color:#FFFFFF; font-weight:normal;">three</b> types</p></td>
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite8.png" /></td>
+<td></td>
+<td><p>Cities investing in <b style="color:#FFFFFF; font-weight:normal;">all four</b> types</p></td>
+</tr>
+
+<tr>
+<td style="height:70px;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td style="height:220px;"></td>
+<td></td>
+<td></td>
+<td style="width:250px; vertical-align:bottom;">
+<h3 style="line-height:15px;">Cities Investing in Rail Transit</h3>
+<p style="line-height:15px;">Cities nationwide are investing in rail transit to relieve highway congestion and ameliorate growth. New high-speed, commuter, rapid transit, and light-rail systems are being developed, and many currently operating are slated for or in the process of expansion.</p>
+</td>
+</tr>
+
+</table>
+</div>
+
+<!--/////////////////////////////////////////////////////////////-->
+
+<div class="caption" id="caption_Flor">
+<table>
+
+<tr>
+<td style="width:11px; height:100px;"></td>
+<td style="width:19px;"></td>
+<td style="width:10px;"></td>
+<td></td>
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite9.png" /></td>
+<td></td>
+<td><p>Freight Railways</p></td> 
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite10.png" /></td>
+<td></td>
+<td><p>Amtrak</p></td> 
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite11.png" /></td>
+<td></td>
+<td><p>Tri-Rail Commuter Rail (Miami)</p></td> 
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite12.png" /></td>
+<td></td>
+<td><p>SunRail Commuter Rail (Orlando)</p></td> 
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite13.png" /></td>
+<td></td>
+<td><p>High Speed Rail (Cancelled)</p></td> 
+</tr>
+
+<tr>
+<td style="height:22px;"></td>
+<td><img src="Sprites/PSTH_Sprite14.png" /></td>
+<td></td>
+<td><p>TBARTA Long Distance Rail (future)</p></td> 
+</tr>
+
+<tr>
+<td style="height:128px;"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td style="height:250px;"></td>
+<td></td>
+<td></td>
+<td style="width:250px; vertical-align:bottom;"><h3 style="line-height:15px;">Railways in Florida</h3><p style="line-height:15px;">Florida came into national spotlight with plans for a high-speed rail corridor between Tampa and Orlando, buth now this multi-billion dollar project has been cancelled. In spite of this recent cancellation, a multiplicity of local initiatives are still moving forward. Deploying existing freight routes for passenger use is proving to be much more feasible than building new rails and obtaining new right-of-ways. Systems in Miami, Orlando, and Tampa take advantage of track built many years ago throughout the state. Cities and towns born along these lines will have a new chance to connect to rail transit.</p></td>
+</tr>
+
+</table>
+</div>
+
+<!--/////////////////////////////////////////////////////////////-->
+
+<div class="caption" id="caption_Modl">
+<table>
+
+<!--<tr>
+<td style="width:530px;"></td>
+<td style="vertical-align:top; width:280px; height:100px;">
+<h3 style="line-height:15px; text-align:right;" id="name_Modl"></h3>
+<p style="line-height:15px; text-align:right;" id="desc_Modl"></p>
+</td>
+</tr>-->
+
+<tr>
+<td style="width:310px; height:630px; vertical-align:bottom;">
+<h3 id="name_Modl"></h3>
+<p id="desc_Modl"></p>
+</td>
+</tr>
+
+
+</table>
+</div>
+
+<!--/////////////////////////////////////////////////////////////-->
+
+</div>
+
+
+</body>
+</html>
