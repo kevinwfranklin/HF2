@@ -117,7 +117,7 @@ function processingRoutine() {
 	var swipedElement = document.getElementById(triggerElementID);
 	if ( swipeDirection == 'left' ) {
 		// REPLACE WITH YOUR ROUTINES
-		swipedElement.style.backgroundColor = 'orange';
+		swipedElement.style.backgroundColor = "red";
 	} else if ( swipeDirection == 'right' ) {
 		// REPLACE WITH YOUR ROUTINES
 		swipedElement.style.backgroundColor = 'green';
