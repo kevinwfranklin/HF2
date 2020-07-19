@@ -1,0 +1,49 @@
+:root{
+   --p_wd: 1320;
+}
+
+div.project{
+    /*background-color: darkolivegreen;*/
+    width: 100vw;
+    height: calc(100vw * 2/3);
+}
+
+div.arrow_back{
+    margin-top: calc(100vw * 398/var(--p_wd));
+}
+
+div.arrow_forward{
+    margin-top: calc(100vw * 398/var(--p_wd));
+    margin-left: calc(100vw * 1270/var(--p_wd));
+}
+
+div.top{
+    margin-left: calc(100vw * 60/var(--p_wd));
+    height: calc(100vw * 50/var(--p_wd));
+}
+
+div.image{
+    width: calc(100vw * 1200/var(--p_wd));
+    height: calc(100vw * 800/var(--p_wd));
+    margin-left: calc(100vw * 60/var(--p_wd));
+    margin-top: calc(100vw * 60/var(--p_wd));
+}
+
+a.home{
+    font-size: calc(100vw * 52/var(--p_wd));
+}
+
+img.outline{
+    width: calc(100vw * 1200/var(--p_wd));
+    height: calc(100vw * 800/var(--p_wd));
+}
+
+img.arrow_back, img.arrow_forward{
+    width: calc(100vw * 50/var(--p_wd));
+    height: calc(100vw * 125/var(--p_wd));
+}
+
+img.home{
+    width: calc(100vw * 100/var(--p_wd));
+    height: calc(100vw * 50/var(--p_wd));
+}

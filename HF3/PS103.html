@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="HF3.css">
+    <link rel="stylesheet" media="screen and (max-width: 1320px) and (max-aspect-ratio: 3/2)" href="HF3_wd.css">
+    <link rel="stylesheet" media="screen and (max-height: 880px) and (min-aspect-ratio: 3/2)" href="HF3_ht.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+   
+    <script type="text/javascript" src="Padilicious.js"></script>
+   
+    <title>HF3 TESTING</title>
+</head>
+
+<body>
+    <div class="project">
+        <div class="top">
+            <a class="home">Kevin W Franklin</a>
+            <img class="home" draggable="false" src="Home.svg">
+        </div>
+
+        <div class="arrow_back">
+            <img class="arrow_back" draggable="false" src="Arrow_Back.svg">
+        </div>
+
+        <div class="arrow_forward">
+            <img class="arrow_forward" draggable="false" src="Arrow_Forward.svg">
+        </div>
+
+        <div class="image" id="swipeBox" ontouchstart="touchstart(event, 'swipeBox')" ontouchend="touchEnd(event);" ontouchmove="touchMove(event);" ontouchcancel="touchCancel(event)">
+            <img id="imag" class="outline" draggable="false">
+        </div>
+    </div>
+
+</body>
+</html>
