@@ -41,6 +41,7 @@ div.image{
     height: 800px;
     margin-top: 60px;
     margin-left: 60px;
+    background-color: darksalmon;
 }
 
 a.home{
@@ -61,7 +62,6 @@ img.outline{
     outline-style: solid;
     outline-width: 1px;
     outline-color: white;
-    background-color: darksalmon;
 }
 
 img.arrow_back, img.arrow_forward{
